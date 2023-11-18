@@ -4,7 +4,7 @@ let num1 = prompt(`input first number`)
 let num2 = prompt(`input second number`)
 alert(`Comparison is completed, please take a look in console`)
 
-function compareNums(num1, num2) {
+function compareNums(num1, num2) { 
     if (num1 > num2) {
         console.log(`number : ${num1} is greater than ${num2}`);
     } else
